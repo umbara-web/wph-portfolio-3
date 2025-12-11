@@ -1,7 +1,7 @@
 import Navbar from './Home/partials/navbar';
 import HeroSection from './Home/partials/hero-section';
 import ImpactStatistics from './Home/partials/impact-statistic';
-import Experiance from './Home/partials/experiance';
+import Experience from './Home/partials/experience';
 import QualityResults from './Home/partials/quality-results';
 import BuildExperiance from './Home/partials/build-experience';
 import Project from './Home/partials/projects';
@@ -18,7 +18,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <ImpactStatistics />
-      <Experiance />
+      <Experience />
       <QualityResults />
       <BuildExperiance />
       <Projects />

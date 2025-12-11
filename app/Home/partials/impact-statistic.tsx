@@ -21,7 +21,7 @@ const ImpactStatistics = () => {
 
       {/* Content */}
       <div className=''>
-        <div className='mt-6 flex flex-col divide-y divide-gray-800 md:mt-12'>
+        <div className='mt-6 flex flex-col divide-y divide-neutral-900 md:mt-12'>
           {statisticData.map((statistic) => (
             <div
               key={statistic.data}
