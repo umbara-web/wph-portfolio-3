@@ -27,12 +27,12 @@ const Navbar = () => {
       <nav data-state={menuState && 'active'} className='fixed z-50 w-full'>
         <div
           className={cn(
-            'custom-container mx-auto transition-all duration-300',
+            'custom-container mx-auto mt-4 transition-all duration-300',
             isScrolled &&
-              'bg-background/10 mt-6 rounded-2xl shadow-xl shadow-zinc-300/20 backdrop-blur-lg'
+              'bg-background/10 rounded-2xl shadow-xl shadow-zinc-300/20 backdrop-blur-lg'
           )}
         >
-          <div className='relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4'>
+          <div className='relative mt-4 flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4'>
             <div className='flex w-full justify-between lg:w-auto'>
               {/* Logo */}
               <Link
